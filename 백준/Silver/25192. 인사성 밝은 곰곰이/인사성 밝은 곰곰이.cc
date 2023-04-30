@@ -3,7 +3,6 @@ using namespace std;
 int main(){
     set<string> s;
     int t; cin >> t;
-    int flag=0;
     int result=0;
     while(t--){
         string a; cin >> a;
