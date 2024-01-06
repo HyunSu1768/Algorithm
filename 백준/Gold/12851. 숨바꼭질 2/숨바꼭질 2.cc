@@ -20,7 +20,7 @@ int main(){
             if(i >=0 && i<=100000) {    
                 if(!visited[i]) {
                     visited[i] = visited[x]+1;
-                    cases[i] += cases[x];
+                    cases[i] = cases[x];
                     Q.push(i);
                 }
                 else if(visited[i] == visited[x]+1){
